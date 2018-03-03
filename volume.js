@@ -1,4 +1,4 @@
-// Volume Control with Mouse
+// Week 4: Volume Control with Mouse
 
 var freqA = 174;
 var freqS = 196;
