@@ -1,4 +1,4 @@
-// Metronome
+// Counts in miliseconds
 
 var freqA = 174;
 var freqS = 196;
