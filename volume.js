@@ -1,4 +1,4 @@
-// Week 4: Volume Control with Mouse
+// Volume Control with Mouse
 
 var freqA = 174;
 var freqS = 196;
@@ -50,6 +50,21 @@ function draw() {
   
   if (playingA)	{
   osc=oscA;
+  osc.amp(volume);
+  }
+  
+  if (playingS)	{
+  osc=oscS;
+  osc.amp(volume);
+  }
+  
+  if (playingD)	{
+  osc=oscD;
+  osc.amp(volume);
+  }
+  
+  if (playingF)	{
+  osc=oscF;
   osc.amp(volume);
   }
   
